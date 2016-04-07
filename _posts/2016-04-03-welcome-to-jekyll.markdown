@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Site not implemented yet"
 date:   2016-04-03 14:50:56 +0200
 categories: jekyll update
 ---
