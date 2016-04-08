@@ -168,7 +168,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding-top: 30px;
+    padding-bottom: 0;
 }
 
 .page-heading {
@@ -191,9 +192,15 @@
 
 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 20px;
 }
-
+.post-item:not(:last-child){
+  padding-bottom: $spacing-unit;
+  border-bottom: 1px solid $grey-color-light;
+}
+.post-subheader{
+  font-weight: $light-font-weight;
+}
 
 
 /**

@@ -8,7 +8,10 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+h1, h2, h3, h4, h5, h6{
+  font-family: $header-font-family;
+  font-weight: $light-font-weight;
+}
 
 /**
  * Basic styling
@@ -37,8 +40,6 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-
-
 /**
  * Images
  */
@@ -46,8 +47,6 @@ img {
     max-width: 100%;
     vertical-align: middle;
 }
-
-
 
 /**
  * Figures
@@ -59,8 +58,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -76,35 +73,16 @@ li {
     }
 }
 
-
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
-}
-
-
-
 /**
  * Links
  */
 a {
-    color: $brand-color;
+    color: $text-color;
     text-decoration: none;
-
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
     &:hover {
-        color: $text-color;
-        text-decoration: underline;
+        color: $brand-color;
     }
 }
-
-
 
 /**
  * Blockquotes
@@ -121,8 +99,6 @@ blockquote {
         margin-bottom: 0;
     }
 }
-
-
 
 /**
  * Code formatting
@@ -178,7 +154,6 @@ pre {
  * Clearfix
  */
 %clearfix {
-
     &:after {
         content: "";
         display: table;
@@ -200,7 +175,7 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $grey-color;
+            fill: $text-color;
         }
     }
 }
