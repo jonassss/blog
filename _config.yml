@@ -7,7 +7,7 @@
 
 # Site settings
 title: Jonas' Blog
-description: Hi, my name is Jonas. I created this blog I, as a software enthusiaist, wanted to share some toughts and ideas.
+description: Hi, my name is Jonas. I created this blog because I, as a software enthusiaist, wanted to share some toughts and ideas.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "http://jonassss.github.io" # the base hostname & protocol for your site
 github_username: jonassss
