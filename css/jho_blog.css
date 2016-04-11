@@ -164,7 +164,7 @@ textarea{
   height: 75px;
   font-size:18px;
 }
-.group input{
+.contact_group input{
   font-size:18px;
   padding:10px 10px 10px 5px;
   display:block;
@@ -172,8 +172,8 @@ textarea{
   border:none;
   border-bottom:1px solid #757575;
 }
-.group input:focus{ outline:none; }
-.group label{
+.contact_group input:focus{ outline:none; }
+.contact_group label{
   color:#999;
   font-size:18px;
   font-weight:normal;
@@ -185,17 +185,17 @@ textarea{
   -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
 }
-.group input:focus ~ label, .group input:valid ~ label{
+.contact_group input:focus ~ label, .contact_group input:valid ~ label{
   top:-20px;
   font-size:14px;
   color:#455A64;
 }
 /* active state */
-.group input:focus ~ .bar:before, .group input:focus ~ .bar:after {
+.contact_group input:focus ~ .contact_input_bar:before, .contact_group input:focus ~ .contact_input_bar:after {
   width:50%;
 }
 /* active state */
-.group input:focus ~ .highlight {
+.contact_group input:focus ~ .jho_highlight {
   -webkit-animation:inputHighlighter 0.3s ease;
   -moz-animation:inputHighlighter 0.3s ease;
   animation:inputHighlighter 0.3s ease;
@@ -215,12 +215,12 @@ textarea{
 .jho_submit-button:hover{
   background-color: #455A64;
 }
-.group{
+.contact_group{
   position:relative;
   margin-bottom: 25px;
 }
-.bar    { position:relative; display:block; width:300px; }
-.bar:before, .bar:after     {
+.contact_input_bar    { position:relative; display:block; width:300px; }
+.contact_input_bar:before, .contact_input_bar:after     {
   content:'';
   height:2px;
   width:0;
@@ -231,15 +231,15 @@ textarea{
   -moz-transition:0.2s ease all;
   -webkit-transition:0.2s ease all;
 }
-.bar:before {
+.contact_input_bar:before {
   left:50%;
 }
-.bar:after {
+.contact_input_bar:after {
   right:50%;
 }
 
 /* HIGHLIGHTER ================================== */
-.highlight {
+.jho_highlight {
   position:absolute;
   height:60%;
   width:100px;
