@@ -2,11 +2,11 @@
 /*
  * Hamburger menu with animation
  */
- @media (min-width: 615px){ .jho_hamburger-menu{ display: none; } }
+ @media (min-width: 775px){ .jho_hamburger-menu{ display: none; } }
 .jho_hamburger-menu{
   position:fixed;
-  top:0;
-  right: 30px;
+  top:-10px;
+  right: 20px;
   cursor: pointer;
   z-index:11;
   padding: 20px;
