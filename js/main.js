@@ -14,7 +14,6 @@ function initContactForm(){
  $(".jho_greyarea").click(function(e){
    if(e.target.tagName.toLowerCase() === "center"){
      $(".jho_greyarea").toggleClass("hidden");
-
    }
  });
 /**
